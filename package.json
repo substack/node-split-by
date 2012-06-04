@@ -6,9 +6,14 @@
   "repository": {
     "url": "git://github.com/substack/node-split-by.git"
   },
+  "scripts" : {
+    "test" : "tap test/*.js"
+  },
   "main": "index.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "tap" : "~0.2.5"
+  },
   "optionalDependencies": {},
   "engines": {
     "node": "*"
