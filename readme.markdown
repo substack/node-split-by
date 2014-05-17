@@ -4,6 +4,7 @@ Split an array or a string by another array or string.
 
 [![build status](https://secure.travis-ci.org/substack/node-split-by.png)](http://travis-ci.org/substack/node-split-by)
 
+[![testling badge](https://ci.testling.com/substack/node-split-by.png)](https://ci.testling.com/substack/node-split-by)
 # example
 
 ``` js

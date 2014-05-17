@@ -1,22 +1,43 @@
 {
-  "author": "James Halliday <mail@substack.net> (http://substack.net)",
   "name": "split-by",
   "description": "split an array or string by another array or string",
   "version": "0.0.0",
   "repository": {
     "url": "git://github.com/substack/node-split-by.git"
   },
-  "scripts" : {
-    "test" : "tap test/*.js"
+  "scripts": {
+    "test": "tape test/*.js"
   },
   "main": "index.js",
-  "dependencies": {},
   "devDependencies": {
-    "tap" : "~0.2.5"
+    "tape": "~2.13.0"
   },
-  "license" : "MIT",
+  "license": "MIT",
   "optionalDependencies": {},
   "engines": {
     "node": "*"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/8..latest",
+      "firefox/15",
+      "firefox/latest",
+      "firefox/nightly",
+      "chrome/15",
+      "chrome/latest",
+      "chrome/canary",
+      "opera/12..latest",
+      "opera/next",
+      "safari/5.1..latest",
+      "ipad/6.0..latest",
+      "iphone/6.0..latest",
+      "android-browser/4.2..latest"
+    ]
+  },
+  "author": {
+    "name": "James Halliday",
+    "email": "mail@substack.net",
+    "url": "http://substack.net"
   }
 }
