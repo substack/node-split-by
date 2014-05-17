@@ -1,12 +1,10 @@
-split-by
-========
+# split-by
 
 Split an array or a string by another array or string.
 
 [![build status](https://secure.travis-ci.org/substack/node-split-by.png)](http://travis-ci.org/substack/node-split-by)
 
-example
-=======
+# example
 
 ``` js
 var splitBy = require('split-by');
@@ -21,20 +19,17 @@ output:
 [ [ 3, 4 ], [ 2, 1, 0, 5 ], [ 5, 2, 1 ] ]
 ```
 
-methods
-=======
+# methods
 
 ``` js
 var splitBy = require('split-by')
 ```
 
-splitBy(xs, ys)
----------------
+## splitBy(xs, ys)
 
 Return an array of `xs` split by `ys`, not including the elements split on.
 
-install
-=======
+# install
 
 With [npm](http://npmjs.org) do:
 
@@ -42,7 +37,6 @@ With [npm](http://npmjs.org) do:
 npm install split-by
 ```
 
-license
-=======
+# license
 
 MIT
