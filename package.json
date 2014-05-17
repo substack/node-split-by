@@ -1,7 +1,7 @@
 {
   "name": "split-by",
   "description": "split an array or string by another array or string",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "url": "git://github.com/substack/node-split-by.git"
   },
@@ -17,6 +17,11 @@
   "engines": {
     "node": "*"
   },
+  "keywords": [
+    "array",
+    "split",
+    "element"
+  ],
   "testling": {
     "files": "test/*.js",
     "browsers": [
